@@ -208,6 +208,10 @@ footer{
     color: #FFFFFF;
 }
 
+.email{
+    margin: 20px 0px;
+}
+
 .footerItem img{
     margin-top: 32px;
 }
