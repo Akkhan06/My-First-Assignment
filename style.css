@@ -45,7 +45,7 @@ header p{
     
 }
 
-header button{
+.buttonItem{
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
@@ -56,7 +56,195 @@ header button{
     border: none;
 }
 
-header a{
+.buttonItem a{
     text-decoration: none;
     color: #005FAC;
 }
+
+/* main section */
+
+/* person information section */
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+    gap: 80;
+    align-items: flex-end;
+    margin-top: 100px;
+    height: 723.3px;
+}
+
+.profile{
+    margin: 0px 40px;
+}
+
+.profile2{
+    margin-bottom: 80px;
+}
+.mainSection h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    width: 288px;
+}
+
+.mainSection p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    max-width: 416px;
+    margin: 24px 0px;
+}
+
+.mainSection ul li{
+    list-style: none;
+    font-size: 16px;
+    color: #444343;
+}
+
+
+/* Plane section */
+
+.planSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.plane{
+    text-align: center;
+
+}
+
+.plane h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+}
+
+.planeItems{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.planeItem h2{
+    margin: 20px 0px;
+    font-size: 30px;
+    color: #151414;
+}
+
+.planeItem p{
+    font-size: 25px;
+    color: #737272;
+}
+
+/* gradiant section */
+
+.gradientSection{
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gradient{
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background-image: url("image/watch.png"),linear-gradient(90deg, #008cff 0%, rgba(6, 61, 105, 0) 100%);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    
+}
+
+.itemGra{
+    padding-left: 50px;
+}
+
+.gradient h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+.gradient  .buttonItem{
+    margin-top: 24px;
+}
+
+/* footer section */
+
+footer{
+    height: 577px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+    color: white;
+
+}
+
+.footerItem h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footerItem p{
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footerItem img{
+    margin-top: 32px;
+}
+
+.im{
+    margin: 0px 20px;
+}
+
+.footerItem .inn {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: black;
+    padding-left: 20px ;
+}
+
+form{
+    margin-bottom: 70px;
+}
+
+footer h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+footer .btn{
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    padding: 20px 35px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
